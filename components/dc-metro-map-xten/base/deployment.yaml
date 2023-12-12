@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-xten
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-path-service-tenant/appstudio/dc-metro-map-xten@sha256:ef8f099d734e700163e84891532a22ab3f50832c247e6c7ced53e869e735c5cf
         name: my-nodejs
         ports:
         - containerPort: 3001
